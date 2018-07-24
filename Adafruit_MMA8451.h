@@ -36,7 +36,8 @@
 /*=========================================================================
     I2C ADDRESS/BITS
     -----------------------------------------------------------------------*/
-    #define MMA8451_DEFAULT_ADDRESS                 (0x1D)    // if A is GND, its 0x1C
+    //#define MMA8451_DEFAULT_ADDRESS                 (0x1D)    // if A is GND, its 0x1C
+    #define MMA8451_DEFAULT_ADDRESS                 (0x1C)    // if A is GND, its 0x1C
 /*=========================================================================*/
 
 #define MMA8451_REG_OUT_X_MSB     0x01
